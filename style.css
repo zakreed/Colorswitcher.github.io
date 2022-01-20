@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.button-container {
+    width: 15em;
+    height: 3em;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    place-items: center;
+    gap: 1.5em;
+}
+
+.button {
+    border: none;
+    border-radius: 1.5em;
+    width: 3em;
+    height: 3em;
+    transition-duration: 0.4s;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.red{
+    background-color: #E74C3C;
+} .red:hover{
+    background-color: #C0392B;
+}
+
+.blue {
+    background-color: #5CACE2;
+} .blue:hover {
+    background-color: #2980B9;
+}
+
+.yellow {
+    background-color: #F1C40F;
+} .yellow:hover {
+    background-color: #F39C12;
+}
+
+.green {
+    background-color: #57D68D;
+} .green:hover {
+    background-color: #27AE60;
+}
